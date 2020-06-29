@@ -13,3 +13,11 @@ var myMap = L.map("map", {
     id: "mapbox/streets-v11",
     accessToken: API_KEY
   }).addTo(myMap);
+
+  var marker = L.marker([60.1699, 24.9384], {
+    draggable: true,
+    title: "My First Marker"
+  }).addTo(myMap);
+  
+  // Binding a pop-up to our marker
+  marker.bindPopup("Hello There!");
