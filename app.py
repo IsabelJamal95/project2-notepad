@@ -26,7 +26,21 @@ def data2018():
 def map():
     return render_template('map.html')
 
+@app.route('/map2015')
+def map2015():
+    return render_template('map2015.html')
 
+@app.route('/map2016')
+def map2016():
+    return render_template('map2016.html')
+
+@app.route('/map2017')
+def map2017():
+    return render_template('map2017.html')
+
+@app.route('/map2018')
+def map2018():
+    return render_template('map2018.html')
 
 
 

@@ -1,4 +1,4 @@
-Country,ContinentName,Coordinates,Region,Happiness_Rank,Happiness_Score,Economy_GDP_per_Capita,Health_Life_Expectancy,Freedom,Trust_Government_Trust,Generosity
+Country,Continent,Coordinates,Region,Happiness_Rank,Happiness_Score,Economy_GDP_per_Capita,Health_Life_Expectancy,Freedom,Trust_Government_Corruption,Generosity
 Afghanistan,Asia,"34.51666667,69.183333",Southern Asia,154,3.203,0.35,0.361,0,0.025,0.158
 Albania,Europe,"41.31666667,19.816667",Central and Eastern Europe,107,4.719,0.947,0.874,0.383,0.027,0.178
 Algeria,Africa,"36.75,3.05",Middle East and Northern Africa,88,5.211,1.002,0.785,0.086,0.114,0.073
