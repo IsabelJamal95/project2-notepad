@@ -15,7 +15,7 @@ var myMap = L.map("map", {
     accessToken: API_KEY
   }).addTo(myMap);
   
-  var Countries =[{
+  var Countries =[ {
     Country:"Afghanistan",
     Continent:"Asia",
     Coordinates:[34.51666667,69.183333],
