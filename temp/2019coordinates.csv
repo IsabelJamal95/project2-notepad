@@ -1,143 +1,146 @@
-Country,pop_est,continent,Coordinates,Region,Happiness_Rank,Happiness_Score,Economy_GDP_per_Capita,Health_Life_Expectancy,Freedom,Trust_Government_Corruption,Generosity
-Afghanistan,28400000,Asia,"66.00473,33.83523",Southern Asia,154,3.203,0.35,0.361,0,0.025,0.158
-Albania,3639453,Europe,"20.04983,41.14245",Central and Eastern Europe,107,4.719,0.947,0.874,0.383,0.027,0.178
-United Arab Emirates,4798491,Asia,"54.30017,23.90528",Middle East and Northern Africa,21,6.825,1.503,0.825,0.598,0.182,0.262
-Argentina,40913584,South America,"-65.1798,-35.3813",Latin America and Caribbean,47,6.086,1.092,0.881,0.471,0.05,0.066
-Armenia,2967004,Asia,"44.92993,40.28953",Central and Eastern Europe,116,4.559,0.85,0.815,0.283,0.064,0.095
-Australia,21262641,Oceania,"134.491,-25.7329",Australia and New Zealand,11,7.228,1.372,1.036,0.557,0.29,0.332
-Austria,8210281,Europe,"14.12648,47.58549",Western Europe,10,7.246,1.376,1.016,0.532,0.226,0.244
-Azerbaijan,8238672,Asia,"47.546,40.28827",Central and Eastern Europe,90,5.208,1.043,0.769,0.351,0.182,0.035
-Burundi,8988091,Africa,"29.87512,-3.3594",Sub-Saharan Africa,145,3.775,0.046,0.38,0.22,0.18,0.176
-Belgium,10414336,Europe,"4.640651,50.63982",Western Europe,18,6.923,1.356,0.986,0.473,0.21,0.16
-Benin,8791832,Africa,"2.327853,9.64176",Sub-Saharan Africa,102,4.883,0.393,0.397,0.349,0.082,0.175
-Burkina Faso,15746232,Africa,"-1.75457,12.26954",Sub-Saharan Africa,115,4.587,0.331,0.38,0.255,0.113,0.177
-Bangladesh,156050883,Asia,"90.23813,23.86731",Southern Asia,125,4.456,0.562,0.723,0.527,0.143,0.166
-Bulgaria,7204687,Europe,"25.21553,42.7689",Central and Eastern Europe,97,5.011,1.092,0.815,0.311,0.004,0.081
-Bahrain,727785,Asia,"50.54197,26.04205",Middle East and Northern Africa,37,6.199,1.362,0.871,0.536,0.11,0.255
-Canada,33487208,North America,"-98.3078,61.36206",North America,9,7.278,1.365,1.039,0.584,0.308,0.285
-Bosnia and Herzegovina,4613414,Europe,"17.76877,44.1745",Central and Eastern Europe,78,5.386,0.945,0.845,0.212,0.006,0.263
-Belarus,9648533,Europe,"28.03209,53.53131",Central and Eastern Europe,81,5.323,1.067,0.789,0.235,0.142,0.094
-Bolivia,9775246,South America,"-64.6854,-16.7081",Latin America and Caribbean,61,5.779,0.776,0.706,0.511,0.064,0.137
-Brazil,198739269,South America,"-53.0978,-10.7878",Latin America and Caribbean,32,6.3,1.004,0.802,0.39,0.086,0.099
-Bhutan,691141,Asia,"90.40188,27.41107",Southern Asia,95,5.082,0.813,0.604,0.457,0.167,0.37
-Botswana,1990876,Africa,"23.79853,-22.184",Sub-Saharan Africa,148,3.488,1.041,0.538,0.455,0.1,0.025
-Central African Republic,4511488,Africa,"20.46827,6.568233",Sub-Saharan Africa,155,3.083,0.026,0.105,0.225,0.035,0.235
-Switzerland,7604467,Europe,"8.208675,46.79786",Western Europe,6,7.48,1.452,1.052,0.572,0.343,0.263
-Chile,16601707,South America,"-71.3826,-37.7307",Latin America and Caribbean,26,6.444,1.159,0.92,0.357,0.056,0.187
-China,1338612970,Asia,"103.8191,36.56177",Eastern Asia,93,5.191,1.029,0.893,0.521,0.1,0.058
-Cameroon,18879301,Africa,"12.73964,5.691098",Sub-Saharan Africa,96,5.044,0.549,0.331,0.381,0.037,0.187
-Colombia,45644023,South America,"-73.0811,3.913834",Latin America and Caribbean,43,6.125,0.985,0.841,0.47,0.034,0.099
-Comoros,752438,Africa,"43.68254,-11.8778",Sub-Saharan Africa,142,3.973,0.274,0.505,0.142,0.078,0.275
-Costa Rica,4253877,North America,"-84.1921,9.976345",Latin America and Caribbean,12,7.167,1.034,0.963,0.558,0.093,0.144
-Cyprus,531640,Asia,"33.006,34.91667",Western Europe,49,6.046,1.263,1.042,0.406,0.041,0.19
-Czech Republic,10211904,Europe,"15.3124,49.73341",Central and Eastern Europe,20,6.852,1.269,0.92,0.457,0.036,0.046
-Germany,82329758,Europe,"10.38578,51.10698",Western Europe,17,6.985,1.373,0.987,0.495,0.265,0.261
-Denmark,5500510,Europe,"10.02801,55.98125",Western Europe,2,7.6,1.383,0.996,0.592,0.41,0.252
-Dominican Republic,9650054,North America,"-70.5057,18.89433",Latin America and Caribbean,77,5.425,1.015,0.779,0.497,0.101,0.113
-Algeria,34178188,Africa,"2.617323,28.15894",Middle East and Northern Africa,88,5.211,1.002,0.785,0.086,0.114,0.073
-Ecuador,14573101,South America,"-78.752,-1.42382",Latin America and Caribbean,50,6.028,0.912,0.868,0.498,0.087,0.126
-Egypt,83082869,Africa,"29.8619,26.49593",Middle East and Northern Africa,137,4.166,0.913,0.644,0.241,0.067,0.076
-Spain,40525002,Europe,"-3.64755,40.24449",Western Europe,30,6.354,1.286,1.062,0.362,0.079,0.153
-Estonia,1299371,Europe,"25.54249,58.67193",Central and Eastern Europe,55,5.893,1.237,0.874,0.495,0.161,0.103
-Ethiopia,85237338,Africa,"39.6008,8.622787",Sub-Saharan Africa,134,4.286,0.336,0.532,0.344,0.1,0.209
-Finland,5250275,Europe,"26.27467,64.49885",Western Europe,1,7.769,1.34,0.986,0.596,0.393,0.153
-France,64057792,Europe,"-2.76173,42.17344",Western Europe,24,6.592,1.324,1.045,0.436,0.183,0.111
-Gabon,1514993,Africa,"11.78863,-0.5866",Sub-Saharan Africa,104,4.799,1.057,0.571,0.295,0.055,0.043
-United Kingdom,62262000,Europe,"-2.86563,54.12387",Western Europe,15,7.054,1.333,0.996,0.45,0.278,0.348
-Georgia,4615807,Asia,"43.5078,42.16856",Central and Eastern Europe,119,4.519,0.886,0.752,0.346,0.164,0.043
-Ghana,23832495,Africa,"-1.21677,7.953456",Sub-Saharan Africa,98,4.996,0.611,0.486,0.381,0.04,0.245
-Guinea,10057975,Africa,"-10.9407,10.43622",Sub-Saharan Africa,118,4.534,0.38,0.375,0.332,0.086,0.207
-Greece,10737428,Europe,"22.95556,39.0747",Western Europe,82,5.287,1.181,0.999,0.067,0.034,0
-Guatemala,13276517,North America,"-90.3648,15.69404",Latin America and Caribbean,27,6.436,0.8,0.746,0.535,0.078,0.175
-Hong Kong,7061200,Asia,"114.1138,22.39828",Eastern Asia,76,5.43,1.438,1.122,0.44,0.287,0.258
-Honduras,7792854,North America,"-86.6152,14.82688",Latin America and Caribbean,59,5.86,0.642,0.828,0.507,0.078,0.246
-Croatia,4489409,Europe,"16.40413,45.08048",Central and Eastern Europe,75,5.432,1.155,0.914,0.296,0.022,0.119
-Haiti,9035536,North America,"-72.6853,18.93503",Latin America and Caribbean,147,3.597,0.323,0.449,0.026,0.11,0.419
-Hungary,9905596,Europe,"19.39559,47.16278",Central and Eastern Europe,62,5.758,1.201,0.828,0.199,0.02,0.081
-Indonesia,240271522,Asia,"117.2401,-2.21505",Southeastern Asia,92,5.192,0.931,0.66,0.491,0.028,0.498
-India,1166079220,Asia,"79.61198,22.88578",Southern Asia,140,4.015,0.755,0.588,0.498,0.085,0.2
-Ireland,4203200,Europe,"-8.13794,53.17545",Western Europe,16,7.021,1.499,0.999,0.516,0.31,0.298
-Iran,66429284,Asia,"54.27407,32.57503",Middle East and Northern Africa,117,4.548,1.1,0.785,0.305,0.125,0.27
-Iraq,31129225,Asia,"43.74353,33.03971",Middle East and Northern Africa,126,4.437,1.043,0.574,0.241,0.089,0.148
-Iceland,306694,Europe,"-18.574,64.99575",Western Europe,4,7.494,1.38,1.026,0.591,0.118,0.354
-Israel,7233701,Asia,"35.00445,31.4611",Middle East and Northern Africa,13,7.139,1.276,1.029,0.371,0.082,0.261
-Italy,58126212,Europe,"12.07001,42.79663",Western Europe,36,6.223,1.294,1.039,0.231,0.03,0.158
-Jamaica,2825928,North America,"-77.3148,18.15695",Latin America and Caribbean,56,5.89,0.831,0.831,0.49,0.028,0.107
-Jordan,6342948,Asia,"36.77136,31.24579",Middle East and Northern Africa,101,4.906,0.837,0.815,0.383,0.13,0.11
-Japan,127078679,Asia,"138.0309,37.5923",Eastern Asia,58,5.886,1.327,1.088,0.445,0.14,0.069
-Kazakhstan,15399437,Asia,"67.29149,48.15688",Central and Eastern Europe,60,5.809,1.173,0.729,0.41,0.096,0.146
-Kenya,39002772,Africa,"37.79594,0.59988",Sub-Saharan Africa,121,4.509,0.512,0.581,0.431,0.053,0.372
-Kyrgyzstan,5431747,Asia,"74.54166,41.46222",Central and Eastern Europe,86,5.261,0.551,0.723,0.508,0.023,0.3
-Cambodia,14494293,Asia,"104.9069,12.72005",Southeastern Asia,109,4.7,0.574,0.637,0.609,0.062,0.232
-Kosovo,1804838,Europe,"20.8725,42.57079",Central and Eastern Europe,46,6.1,0.882,0.758,0.489,0.006,0.262
-Kuwait,2691158,Asia,"47.587,29.33431",Middle East and Northern Africa,51,6.021,1.5,0.808,0.493,0.097,0.142
-Lebanon,4017095,Asia,"35.88016,33.92307",Middle East and Northern Africa,91,5.197,0.987,0.815,0.216,0.027,0.166
-Liberia,3441790,Africa,"-9.32208,6.452785",Sub-Saharan Africa,141,3.975,0.073,0.443,0.37,0.033,0.233
-Libya,6310434,Africa,"18.00866,27.03094",Middle East and Northern Africa,72,5.525,1.044,0.673,0.416,0.152,0.133
-Sri Lanka,21324791,Asia,"80.70108,7.612665",Southern Asia,130,4.366,0.949,0.831,0.47,0.047,0.244
-Lesotho,2130819,Africa,"28.22723,-29.58",Sub-Saharan Africa,144,3.802,0.489,0.168,0.359,0.093,0.107
-Lithuania,3555179,Europe,"23.88719,55.32611",Central and Eastern Europe,42,6.149,1.238,0.818,0.291,0.042,0.043
-Luxembourg,491775,Europe,"6.071822,49.76725",Western Europe,14,7.09,1.609,1.012,0.526,0.316,0.194
-Latvia,2231503,Europe,"24.91236,56.85085",Central and Eastern Europe,53,5.94,1.187,0.812,0.264,0.064,0.075
-Morocco,34859364,Africa,"-8.45616,29.83763",Middle East and Northern Africa,89,5.208,0.801,0.782,0.418,0.076,0.036
-Moldova,4320748,Europe,"28.45673,47.19499",Central and Eastern Europe,71,5.529,0.685,0.739,0.245,0,0.181
-Madagascar,20653556,Africa,"46.70474,-19.3719",Sub-Saharan Africa,143,3.933,0.274,0.555,0.148,0.041,0.169
-Mexico,111211789,North America,"-102.523,23.94754",Latin America and Caribbean,23,6.595,1.07,0.861,0.433,0.073,0.074
-Mali,12666987,Africa,"-3.54269,17.34582",Sub-Saharan Africa,128,4.39,0.385,0.308,0.327,0.052,0.153
-Malta,405165,Europe,"14.40523,35.9215",Western Europe,22,6.726,1.3,0.999,0.564,0.151,0.375
-Myanmar,48137741,Asia,"96.48843,21.18567",Southeastern Asia,131,4.36,0.71,0.555,0.525,0.172,0.566
-Montenegro,672180,Europe,"19.23884,42.7889",Central and Eastern Europe,73,5.523,1.051,0.871,0.197,0.08,0.142
-Mongolia,3041142,Asia,"103.053,46.82682",Eastern Asia,83,5.285,0.948,0.667,0.317,0.038,0.235
-Mozambique,21669278,Africa,"35.53368,-17.2738",Sub-Saharan Africa,123,4.466,0.204,0.39,0.494,0.138,0.197
-Mauritania,3129486,Africa,"-10.3478,20.25737",Sub-Saharan Africa,122,4.49,0.57,0.489,0.066,0.088,0.106
-Mauritius,1284264,Seven seas (open ocean),"57.57121,-20.2777",Sub-Saharan Africa,57,5.888,1.12,0.798,0.498,0.06,0.215
-Malawi,14268711,Africa,"34.28936,-13.2181",Sub-Saharan Africa,150,3.41,0.191,0.495,0.443,0.089,0.218
-Malaysia,25715819,Asia,"109.6976,3.789868",Southeastern Asia,80,5.339,1.221,0.828,0.508,0.024,0.26
-Niger,15306252,Africa,"9.385459,17.41912",Sub-Saharan Africa,114,4.628,0.138,0.366,0.318,0.102,0.188
-Nigeria,149229090,Africa,"8.089439,9.594115",Sub-Saharan Africa,85,5.265,0.696,0.245,0.426,0.041,0.215
-Nicaragua,5891199,North America,"-85.0305,12.84709",Latin America and Caribbean,45,6.105,0.694,0.835,0.435,0.127,0.2
-Netherlands,16715999,Europe,"5.281448,52.10079",Western Europe,5,7.488,1.396,0.999,0.557,0.298,0.322
-Norway,4676305,Europe,"15.34835,68.75016",Western Europe,3,7.554,1.488,1.028,0.603,0.341,0.271
-Nepal,28563377,Asia,"83.91583,28.24891",Southern Asia,100,4.913,0.446,0.677,0.439,0.089,0.285
-New Zealand,4213418,Oceania,"171.4849,-41.8111",Australia and New Zealand,8,7.307,1.303,1.026,0.585,0.38,0.33
-Pakistan,176242949,Asia,"69.33958,29.94975",Southern Asia,67,5.653,0.677,0.535,0.313,0.098,0.22
-Panama,3360474,North America,"-80.1192,8.517508",Latin America and Caribbean,31,6.321,1.149,0.91,0.516,0.054,0.109
-Peru,29546963,South America,"-74.3824,-9.1528",Latin America and Caribbean,65,5.697,0.96,0.854,0.455,0.027,0.083
-Philippines,97976603,Asia,"122.8839,11.77537",Southeastern Asia,69,5.631,0.807,0.657,0.558,0.107,0.117
-Poland,38482919,Europe,"19.39013,52.1276",Central and Eastern Europe,40,6.182,1.206,0.884,0.483,0.05,0.117
-Portugal,10707924,Europe,"-8.50104,39.59551",Western Europe,66,5.693,1.221,0.999,0.508,0.025,0.047
-Paraguay,6995655,South America,"-58.4001,-23.2282",Latin America and Caribbean,63,5.743,0.855,0.777,0.514,0.08,0.184
-Qatar,833285,Asia,"51.1848,25.30601",Middle East and Northern Africa,29,6.374,1.684,0.871,0.555,0.167,0.22
-Romania,22215421,Europe,"24.97293,45.85243",Central and Eastern Europe,48,6.07,1.162,0.825,0.462,0.005,0.083
-Rwanda,10473282,Africa,"29.91989,-1.99034",Sub-Saharan Africa,152,3.334,0.359,0.614,0.555,0.411,0.217
-Saudi Arabia,28686633,Asia,"44.53686,24.12246",Middle East and Northern Africa,28,6.375,1.403,0.795,0.439,0.132,0.08
-Senegal,13711597,Africa,"-14.4735,14.36624",Sub-Saharan Africa,111,4.681,0.45,0.571,0.292,0.072,0.153
-Singapore,4657542,Asia,"103.8173,1.358761",Southeastern Asia,34,6.262,1.572,1.141,0.556,0.453,0.271
-Sierra Leone,6440053,Africa,"-11.7927,8.563296",Sub-Saharan Africa,129,4.374,0.268,0.242,0.309,0.045,0.252
-El Salvador,7185218,North America,"-88.8716,13.73944",Latin America and Caribbean,35,6.253,0.794,0.789,0.43,0.074,0.093
-Serbia,7379339,Europe,"20.78958,44.2215",Central and Eastern Europe,70,5.603,1.004,0.854,0.282,0.039,0.137
-Slovakia,5463046,Europe,"19.47905,48.70548",Central and Eastern Europe,38,6.198,1.246,0.881,0.334,0.014,0.121
-Slovenia,2005692,Europe,"14.80444,46.11555",Central and Eastern Europe,44,6.118,1.258,0.953,0.564,0.057,0.144
-Sweden,9059651,Europe,"16.74558,62.77967",Western Europe,7,7.343,1.387,1.009,0.574,0.373,0.267
-Swaziland,1123913,Africa,"31.48194,-26.5584",Sub-Saharan Africa,135,4.212,0.811,0,0.313,0.135,0.074
-Syria,20178485,Asia,"38.50788,35.02547",Middle East and Northern Africa,149,3.462,0.619,0.44,0.013,0.141,0.331
-Chad,10329208,Africa,"18.64493,15.33334",Sub-Saharan Africa,132,4.35,0.35,0.192,0.174,0.078,0.198
-Togo,6019877,Africa,"0.962328,8.525314",Sub-Saharan Africa,139,4.085,0.275,0.41,0.293,0.085,0.177
-Thailand,65905410,Asia,"101.0029,15.11816",Southeastern Asia,52,6.008,1.05,0.828,0.557,0.028,0.359
-Tajikistan,7349145,Asia,"71.01363,38.53045",Central and Eastern Europe,74,5.467,0.493,0.718,0.389,0.144,0.23
-Turkmenistan,4884887,Asia,"59.371,39.11554",Central and Eastern Europe,87,5.247,1.052,0.657,0.394,0.028,0.244
-Tunisia,10486339,Africa,"9.552884,34.11956",Middle East and Northern Africa,124,4.461,0.921,0.815,0.167,0.055,0.059
-Turkey,76805524,Asia,"35.16895,39.0616",Middle East and Northern Africa,79,5.373,1.183,0.808,0.195,0.106,0.083
-Taiwan,22974347,Asia,"120.9543,23.75399",Eastern Asia,25,6.446,1.368,0.914,0.351,0.097,0.242
-Tanzania,41048532,Africa,"34.8131,-6.27565",Sub-Saharan Africa,153,3.231,0.476,0.499,0.417,0.147,0.276
-Uganda,32369558,Africa,"32.36908,1.274693",Sub-Saharan Africa,136,4.189,0.332,0.443,0.356,0.06,0.252
-Ukraine,45700395,Europe,"31.38326,48.99657",Central and Eastern Europe,133,4.332,0.82,0.739,0.178,0.01,0.187
-Uruguay,3494382,South America,"-56.0181,-32.7995",Latin America and Caribbean,33,6.293,1.124,0.891,0.523,0.15,0.127
-United States,313973000,North America,"-112.462,45.67955",North America,19,6.892,1.433,0.874,0.454,0.128,0.28
-Uzbekistan,27606007,Asia,"63.14002,41.75554",Central and Eastern Europe,41,6.174,0.745,0.756,0.631,0.24,0.322
-Venezuela,26814843,South America,"-66.1818,7.124224",Latin America and Caribbean,108,4.707,0.96,0.805,0.154,0.047,0.064
-Vietnam,86967524,Asia,"106.2991,16.64602",Southeastern Asia,94,5.175,0.741,0.851,0.543,0.073,0.147
-Yemen,23822783,Asia,"47.58676,15.90928",Middle East and Northern Africa,151,3.38,0.287,0.463,0.143,0.077,0.108
-South Africa,49052489,Africa,"25.0839,-29.0003",Sub-Saharan Africa,106,4.722,0.96,0.469,0.389,0.055,0.13
-Zambia,11862740,Africa,"27.77476,-13.4582",Sub-Saharan Africa,138,4.107,0.578,0.426,0.431,0.087,0.247
-Zimbabwe,12619600,Africa,"29.85144,-19.0042",Sub-Saharan Africa,146,3.663,0.366,0.433,0.361,0.089,0.151
+Country,ContinentName,Coordinates,Region,Happiness_Rank,Happiness_Score,Economy_GDP_per_Capita,Health_Life_Expectancy,Freedom,Trust_Government_Trust,Generosity
+Afghanistan,Asia,"34.51666667,69.183333",Southern Asia,154,3.203,0.35,0.361,0,0.025,0.158
+Albania,Europe,"41.31666667,19.816667",Central and Eastern Europe,107,4.719,0.947,0.874,0.383,0.027,0.178
+Algeria,Africa,"36.75,3.05",Middle East and Northern Africa,88,5.211,1.002,0.785,0.086,0.114,0.073
+Argentina,South America,"-34.58333333,-58.666667",Latin America and Caribbean,47,6.086,1.092,0.881,0.471,0.05,0.066
+Armenia,Europe,"40.16666667,44.5",Central and Eastern Europe,116,4.559,0.85,0.815,0.283,0.064,0.095
+Australia,Australia,"-35.26666667,149.133333",Australia and New Zealand,11,7.228,1.372,1.036,0.557,0.29,0.332
+Austria,Europe,"48.2,16.366667",Western Europe,10,7.246,1.376,1.016,0.532,0.226,0.244
+Azerbaijan,Europe,"40.38333333,49.866667",Central and Eastern Europe,90,5.208,1.043,0.769,0.351,0.182,0.035
+Bahrain,Asia,"26.23333333,50.566667",Middle East and Northern Africa,37,6.199,1.362,0.871,0.536,0.11,0.255
+Bangladesh,Asia,"23.71666667,90.4",Southern Asia,125,4.456,0.562,0.723,0.527,0.143,0.166
+Belarus,Europe,"53.9,27.566667",Central and Eastern Europe,81,5.323,1.067,0.789,0.235,0.142,0.094
+Belgium,Europe,"50.83333333,4.333333",Western Europe,18,6.923,1.356,0.986,0.473,0.21,0.16
+Benin,Africa,"6.483333333,2.616667",Sub-Saharan Africa,102,4.883,0.393,0.397,0.349,0.082,0.175
+Bhutan,Asia,"27.46666667,89.633333",Southern Asia,95,5.082,0.813,0.604,0.457,0.167,0.37
+Bolivia,South America,"-16.5,-68.15",Latin America and Caribbean,61,5.779,0.776,0.706,0.511,0.064,0.137
+Bosnia and Herzegovina,Europe,"43.86666667,18.416667",Central and Eastern Europe,78,5.386,0.945,0.845,0.212,0.006,0.263
+Botswana,Africa,"-24.63333333,25.9",Sub-Saharan Africa,148,3.488,1.041,0.538,0.455,0.1,0.025
+Brazil,South America,"-15.78333333,-47.916667",Latin America and Caribbean,32,6.3,1.004,0.802,0.39,0.086,0.099
+Bulgaria,Europe,"42.68333333,23.316667",Central and Eastern Europe,97,5.011,1.092,0.815,0.311,0.004,0.081
+Burkina Faso,Africa,"12.36666667,-1.516667",Sub-Saharan Africa,115,4.587,0.331,0.38,0.255,0.113,0.177
+Myanmar,Asia,"16.8,96.15",Southeastern Asia,131,4.36,0.71,0.555,0.525,0.172,0.566
+Burundi,Africa,"-3.366666667,29.35",Sub-Saharan Africa,145,3.775,0.046,0.38,0.22,0.18,0.176
+Cambodia,Asia,"11.55,104.916667",Southeastern Asia,109,4.7,0.574,0.637,0.609,0.062,0.232
+Cameroon,Africa,"3.866666667,11.516667",Sub-Saharan Africa,96,5.044,0.549,0.331,0.381,0.037,0.187
+Canada,Central America,"45.41666667,-75.7",North America,9,7.278,1.365,1.039,0.584,0.308,0.285
+Central African Republic,Africa,"4.366666667,18.583333",Sub-Saharan Africa,155,3.083,0.026,0.105,0.225,0.035,0.235
+Chad,Africa,"12.1,15.033333",Sub-Saharan Africa,132,4.35,0.35,0.192,0.174,0.078,0.198
+Chile,South America,"-33.45,-70.666667",Latin America and Caribbean,26,6.444,1.159,0.92,0.357,0.056,0.187
+China,Asia,"39.91666667,116.383333",Eastern Asia,93,5.191,1.029,0.893,0.521,0.1,0.058
+Colombia,South America,"4.6,-74.083333",Latin America and Caribbean,43,6.125,0.985,0.841,0.47,0.034,0.099
+Comoros,Africa,"-11.7,43.233333",Sub-Saharan Africa,142,3.973,0.274,0.505,0.142,0.078,0.275
+Costa Rica,Central America,"9.933333333,-84.083333",Latin America and Caribbean,12,7.167,1.034,0.963,0.558,0.093,0.144
+Croatia,Europe,"45.8,16",Central and Eastern Europe,75,5.432,1.155,0.914,0.296,0.022,0.119
+Cyprus,Europe,"35.16666667,33.366667",Western Europe,49,6.046,1.263,1.042,0.406,0.041,0.19
+Czech Republic,Europe,"50.08333333,14.466667",Central and Eastern Europe,20,6.852,1.269,0.92,0.457,0.036,0.046
+Denmark,Europe,"55.66666667,12.583333",Western Europe,2,7.6,1.383,0.996,0.592,0.41,0.252
+Dominican Republic,North America,"18.46666667,-69.9",Latin America and Caribbean,77,5.425,1.015,0.779,0.497,0.101,0.113
+Ecuador,South America,"-0.216666667,-78.5",Latin America and Caribbean,50,6.028,0.912,0.868,0.498,0.087,0.126
+Egypt,Africa,"30.05,31.25",Middle East and Northern Africa,137,4.166,0.913,0.644,0.241,0.067,0.076
+El Salvador,Central America,"13.7,-89.2",Latin America and Caribbean,35,6.253,0.794,0.789,0.43,0.074,0.093
+Estonia,Europe,"59.43333333,24.716667",Central and Eastern Europe,55,5.893,1.237,0.874,0.495,0.161,0.103
+Ethiopia,Africa,"9.033333333,38.7",Sub-Saharan Africa,134,4.286,0.336,0.532,0.344,0.1,0.209
+Finland,Europe,"60.16666667,24.933333",Western Europe,1,7.769,1.34,0.986,0.596,0.393,0.153
+France,Europe,"48.86666667,2.333333",Western Europe,24,6.592,1.324,1.045,0.436,0.183,0.111
+Gabon,Africa,"0.383333333,9.45",Sub-Saharan Africa,104,4.799,1.057,0.571,0.295,0.055,0.043
+Georgia,Europe,"41.68333333,44.833333",Central and Eastern Europe,119,4.519,0.886,0.752,0.346,0.164,0.043
+Germany,Europe,"52.51666667,13.4",Western Europe,17,6.985,1.373,0.987,0.495,0.265,0.261
+Ghana,Africa,"5.55,-0.216667",Sub-Saharan Africa,98,4.996,0.611,0.486,0.381,0.04,0.245
+Greece,Europe,"37.98333333,23.733333",Western Europe,82,5.287,1.181,0.999,0.067,0.034,0
+Guatemala,Central America,"14.61666667,-90.516667",Latin America and Caribbean,27,6.436,0.8,0.746,0.535,0.078,0.175
+Guinea,Africa,"9.5,-13.7",Sub-Saharan Africa,118,4.534,0.38,0.375,0.332,0.086,0.207
+Haiti,North America,"18.53333333,-72.333333",Latin America and Caribbean,147,3.597,0.323,0.449,0.026,0.11,0.419
+Honduras,Central America,"14.1,-87.216667",Latin America and Caribbean,59,5.86,0.642,0.828,0.507,0.078,0.246
+Hungary,Europe,"47.5,19.083333",Central and Eastern Europe,62,5.758,1.201,0.828,0.199,0.02,0.081
+Iceland,Europe,"64.15,-21.95",Western Europe,4,7.494,1.38,1.026,0.591,0.118,0.354
+India,Asia,"28.6,77.2",Southern Asia,140,4.015,0.755,0.588,0.498,0.085,0.2
+Indonesia,Asia,"-6.166666667,106.816667",Southeastern Asia,92,5.192,0.931,0.66,0.491,0.028,0.498
+Iran,Asia,"35.7,51.416667",Middle East and Northern Africa,117,4.548,1.1,0.785,0.305,0.125,0.27
+Iraq,Asia,"33.33333333,44.4",Middle East and Northern Africa,126,4.437,1.043,0.574,0.241,0.089,0.148
+Ireland,Europe,"53.31666667,-6.233333",Western Europe,16,7.021,1.499,0.999,0.516,0.31,0.298
+Israel,Asia,"31.76666667,35.233333",Middle East and Northern Africa,13,7.139,1.276,1.029,0.371,0.082,0.261
+Italy,Europe,"41.9,12.483333",Western Europe,36,6.223,1.294,1.039,0.231,0.03,0.158
+Jamaica,North America,"18,-76.8",Latin America and Caribbean,56,5.89,0.831,0.831,0.49,0.028,0.107
+Japan,Asia,"35.68333333,139.75",Eastern Asia,58,5.886,1.327,1.088,0.445,0.14,0.069
+Jordan,Asia,"31.95,35.933333",Middle East and Northern Africa,101,4.906,0.837,0.815,0.383,0.13,0.11
+Kazakhstan,Asia,"51.16666667,71.416667",Central and Eastern Europe,60,5.809,1.173,0.729,0.41,0.096,0.146
+Kenya,Africa,"-1.283333333,36.816667",Sub-Saharan Africa,121,4.509,0.512,0.581,0.431,0.053,0.372
+South Korea,Asia,"37.55,126.983333",Eastern Asia,54,5.895,1.301,1.036,0.159,0.056,0.175
+Kosovo,Europe,"42.66666667,21.166667",Central and Eastern Europe,46,6.1,0.882,0.758,0.489,0.006,0.262
+Kuwait,Asia,"29.36666667,47.966667",Middle East and Northern Africa,51,6.021,1.5,0.808,0.493,0.097,0.142
+Kyrgyzstan,Asia,"42.86666667,74.6",Central and Eastern Europe,86,5.261,0.551,0.723,0.508,0.023,0.3
+Laos,Asia,"17.96666667,102.6",Southeastern Asia,105,4.796,0.764,0.551,0.547,0.164,0.266
+Latvia,Europe,"56.95,24.1",Central and Eastern Europe,53,5.94,1.187,0.812,0.264,0.064,0.075
+Lebanon,Asia,"33.86666667,35.5",Middle East and Northern Africa,91,5.197,0.987,0.815,0.216,0.027,0.166
+Lesotho,Africa,"-29.31666667,27.483333",Sub-Saharan Africa,144,3.802,0.489,0.168,0.359,0.093,0.107
+Liberia,Africa,"6.3,-10.8",Sub-Saharan Africa,141,3.975,0.073,0.443,0.37,0.033,0.233
+Libya,Africa,"32.88333333,13.166667",Middle East and Northern Africa,72,5.525,1.044,0.673,0.416,0.152,0.133
+Lithuania,Europe,"54.68333333,25.316667",Central and Eastern Europe,42,6.149,1.238,0.818,0.291,0.042,0.043
+Luxembourg,Europe,"49.6,6.116667",Western Europe,14,7.09,1.609,1.012,0.526,0.316,0.194
+Madagascar,Africa,"-18.91666667,47.516667",Sub-Saharan Africa,143,3.933,0.274,0.555,0.148,0.041,0.169
+Malawi,Africa,"-13.96666667,33.783333",Sub-Saharan Africa,150,3.41,0.191,0.495,0.443,0.089,0.218
+Malaysia,Asia,"3.166666667,101.7",Southeastern Asia,80,5.339,1.221,0.828,0.508,0.024,0.26
+Mali,Africa,"12.65,-8",Sub-Saharan Africa,128,4.39,0.385,0.308,0.327,0.052,0.153
+Malta,Europe,"35.88333333,14.5",Western Europe,22,6.726,1.3,0.999,0.564,0.151,0.375
+Mauritania,Africa,"18.06666667,-15.966667",Sub-Saharan Africa,122,4.49,0.57,0.489,0.066,0.088,0.106
+Mauritius,Africa,"-20.15,57.483333",Sub-Saharan Africa,57,5.888,1.12,0.798,0.498,0.06,0.215
+Mexico,Central America,"19.43333333,-99.133333",Latin America and Caribbean,23,6.595,1.07,0.861,0.433,0.073,0.074
+Moldova,Europe,"47,28.85",Central and Eastern Europe,71,5.529,0.685,0.739,0.245,0,0.181
+Mongolia,Asia,"47.91666667,106.916667",Eastern Asia,83,5.285,0.948,0.667,0.317,0.038,0.235
+Montenegro,Europe,"42.43333333,19.266667",Central and Eastern Europe,73,5.523,1.051,0.871,0.197,0.08,0.142
+Morocco,Africa,"34.01666667,-6.816667",Middle East and Northern Africa,89,5.208,0.801,0.782,0.418,0.076,0.036
+Mozambique,Africa,"-25.95,32.583333",Sub-Saharan Africa,123,4.466,0.204,0.39,0.494,0.138,0.197
+Nepal,Asia,"27.71666667,85.316667",Southern Asia,100,4.913,0.446,0.677,0.439,0.089,0.285
+Netherlands,Europe,"52.35,4.916667",Western Europe,5,7.488,1.396,0.999,0.557,0.298,0.322
+New Zealand,Australia,"-41.3,174.783333",Australia and New Zealand,8,7.307,1.303,1.026,0.585,0.38,0.33
+Nicaragua,Central America,"12.13333333,-86.25",Latin America and Caribbean,45,6.105,0.694,0.835,0.435,0.127,0.2
+Niger,Africa,"13.51666667,2.116667",Sub-Saharan Africa,114,4.628,0.138,0.366,0.318,0.102,0.188
+Nigeria,Africa,"9.083333333,7.533333",Sub-Saharan Africa,85,5.265,0.696,0.245,0.426,0.041,0.215
+Norway,Europe,"59.91666667,10.75",Western Europe,3,7.554,1.488,1.028,0.603,0.341,0.271
+Pakistan,Asia,"33.68333333,73.05",Southern Asia,67,5.653,0.677,0.535,0.313,0.098,0.22
+Panama,Central America,"8.966666667,-79.533333",Latin America and Caribbean,31,6.321,1.149,0.91,0.516,0.054,0.109
+Paraguay,South America,"-25.26666667,-57.666667",Latin America and Caribbean,63,5.743,0.855,0.777,0.514,0.08,0.184
+Peru,South America,"-12.05,-77.05",Latin America and Caribbean,65,5.697,0.96,0.854,0.455,0.027,0.083
+Philippines,Asia,"14.6,120.966667",Southeastern Asia,69,5.631,0.807,0.657,0.558,0.107,0.117
+Poland,Europe,"52.25,21",Central and Eastern Europe,40,6.182,1.206,0.884,0.483,0.05,0.117
+Portugal,Europe,"38.71666667,-9.133333",Western Europe,66,5.693,1.221,0.999,0.508,0.025,0.047
+Qatar,Asia,"25.28333333,51.533333",Middle East and Northern Africa,29,6.374,1.684,0.871,0.555,0.167,0.22
+Romania,Europe,"44.43333333,26.1",Central and Eastern Europe,48,6.07,1.162,0.825,0.462,0.005,0.083
+Russia,Europe,"55.75,37.6",Central and Eastern Europe,68,5.648,1.183,0.726,0.334,0.031,0.082
+Rwanda,Africa,"-1.95,30.05",Sub-Saharan Africa,152,3.334,0.359,0.614,0.555,0.411,0.217
+Saudi Arabia,Asia,"24.65,46.7",Middle East and Northern Africa,28,6.375,1.403,0.795,0.439,0.132,0.08
+Senegal,Africa,"14.73333333,-17.633333",Sub-Saharan Africa,111,4.681,0.45,0.571,0.292,0.072,0.153
+Serbia,Europe,"44.83333333,20.5",Central and Eastern Europe,70,5.603,1.004,0.854,0.282,0.039,0.137
+Sierra Leone,Africa,"8.483333333,-13.233333",Sub-Saharan Africa,129,4.374,0.268,0.242,0.309,0.045,0.252
+Singapore,Asia,"1.283333333,103.85",Southeastern Asia,34,6.262,1.572,1.141,0.556,0.453,0.271
+Slovakia,Europe,"48.15,17.116667",Central and Eastern Europe,38,6.198,1.246,0.881,0.334,0.014,0.121
+Slovenia,Europe,"46.05,14.516667",Central and Eastern Europe,44,6.118,1.258,0.953,0.564,0.057,0.144
+South Africa,Africa,"-25.7,28.216667",Sub-Saharan Africa,106,4.722,0.96,0.469,0.389,0.055,0.13
+Spain,Europe,"40.4,-3.683333",Western Europe,30,6.354,1.286,1.062,0.362,0.079,0.153
+Sri Lanka,Asia,"6.916666667,79.833333",Southern Asia,130,4.366,0.949,0.831,0.47,0.047,0.244
+Swaziland,Africa,"-26.31666667,31.133333",Sub-Saharan Africa,135,4.212,0.811,0,0.313,0.135,0.074
+Sweden,Europe,"59.33333333,18.05",Western Europe,7,7.343,1.387,1.009,0.574,0.373,0.267
+Switzerland,Europe,"46.91666667,7.466667",Western Europe,6,7.48,1.452,1.052,0.572,0.343,0.263
+Syria,Asia,"33.5,36.3",Middle East and Northern Africa,149,3.462,0.619,0.44,0.013,0.141,0.331
+Taiwan,Asia,"25.03333333,121.516667",Eastern Asia,25,6.446,1.368,0.914,0.351,0.097,0.242
+Tajikistan,Asia,"38.55,68.766667",Central and Eastern Europe,74,5.467,0.493,0.718,0.389,0.144,0.23
+Tanzania,Africa,"-6.8,39.283333",Sub-Saharan Africa,153,3.231,0.476,0.499,0.417,0.147,0.276
+Thailand,Asia,"13.75,100.516667",Southeastern Asia,52,6.008,1.05,0.828,0.557,0.028,0.359
+Togo,Africa,"6.116666667,1.216667",Sub-Saharan Africa,139,4.085,0.275,0.41,0.293,0.085,0.177
+Tunisia,Africa,"36.8,10.183333",Middle East and Northern Africa,124,4.461,0.921,0.815,0.167,0.055,0.059
+Turkey,Europe,"39.93333333,32.866667",Middle East and Northern Africa,79,5.373,1.183,0.808,0.195,0.106,0.083
+Turkmenistan,Asia,"37.95,58.383333",Central and Eastern Europe,87,5.247,1.052,0.657,0.394,0.028,0.244
+Uganda,Africa,"0.316666667,32.55",Sub-Saharan Africa,136,4.189,0.332,0.443,0.356,0.06,0.252
+Ukraine,Europe,"50.43333333,30.516667",Central and Eastern Europe,133,4.332,0.82,0.739,0.178,0.01,0.187
+United Arab Emirates,Asia,"24.46666667,54.366667",Middle East and Northern Africa,21,6.825,1.503,0.825,0.598,0.182,0.262
+United Kingdom,Europe,"51.5,-0.083333",Western Europe,15,7.054,1.333,0.996,0.45,0.278,0.348
+United States,Central America,"38.883333,-77",North America,19,6.892,1.433,0.874,0.454,0.128,0.28
+Uruguay,South America,"-34.85,-56.166667",Latin America and Caribbean,33,6.293,1.124,0.891,0.523,0.15,0.127
+Uzbekistan,Asia,"41.31666667,69.25",Central and Eastern Europe,41,6.174,0.745,0.756,0.631,0.24,0.322
+Venezuela,South America,"10.48333333,-66.866667",Latin America and Caribbean,108,4.707,0.96,0.805,0.154,0.047,0.064
+Vietnam,Asia,"21.03333333,105.85",Southeastern Asia,94,5.175,0.741,0.851,0.543,0.073,0.147
+Yemen,Asia,"15.35,44.2",Middle East and Northern Africa,151,3.38,0.287,0.463,0.143,0.077,0.108
+Zambia,Africa,"-15.41666667,28.283333",Sub-Saharan Africa,138,4.107,0.578,0.426,0.431,0.087,0.247
+Zimbabwe,Africa,"-17.81666667,31.033333",Sub-Saharan Africa,146,3.663,0.366,0.433,0.361,0.089,0.151
+Hong Kong,Asia,"0,0",Eastern Asia,76,5.43,1.438,1.122,0.44,0.287,0.258
