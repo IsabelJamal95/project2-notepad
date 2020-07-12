@@ -3,7 +3,8 @@ var myMap = L.map("map", {
     center: [33.83523, 66.00473],
     zoom: 2
   });
-  
+
+
   // Adding a tile layer (the background map image) to our map
   // We use the addTo method to add objects to our map
   L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
