@@ -37,11 +37,14 @@ def map2016():
 @app.route('/map2017')
 def map2017():
     return render_template('map2017.html')
-
+ 
 @app.route('/map2018')
 def map2018():
     return render_template('map2018.html')
 
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 
 if __name__ == '__main__':
