@@ -42,9 +42,9 @@ def map2017():
 def map2018():
     return render_template('map2018.html')
 
-@app.route('/about')
+@app.route('/graphs')
 def about():
-    return render_template('about.html')
+    return render_template('graphs.html')
 
 
 if __name__ == '__main__':

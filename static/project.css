@@ -17,4 +17,23 @@ body {
 
 
   }
+  th:hover {
+    background-color: yellow;
+    color: black;
+  }
   
+.nav-link {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
