@@ -43,8 +43,12 @@ def map2018():
     return render_template('map2018.html')
 
 @app.route('/graphs')
-def about():
+def graphs():
     return render_template('graphs.html')
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 
 if __name__ == '__main__':
