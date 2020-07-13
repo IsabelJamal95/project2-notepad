@@ -1,0 +1,1978 @@
+<html>
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Project2</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="static/project.css"></link>
+        <body>
+            <img src="static/Happy.jpg" class="card-img-top" alt="logo">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="graphs">Graphs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="map">Maps</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Years
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="2015">2015</a>
+                        <a class="dropdown-item" href="2016">2016</a>
+                        <a class="dropdown-item" href="2017">2017</a>
+                        <a class="dropdown-item" href="2018">2018</a>
+                        <a class="dropdown-item" href="/">2019</a>
+                     
+                      </div>
+                    </li>
+                   
+                  </ul>
+                  
+                </div>
+              </nav>
+            <h1>World Happiness Rankings 2015</h1>
+            <h3></h3>
+            <input type="button" value="Reset" onClick="document.location.reload(true)">
+            
+            <table id="table_by_year"class="table table-striped table-dark table-hover table-sm">
+              <tr>
+                <th></th>
+                <th onclick="sortTable(0)">Country</th>
+                <th onclick="sortTable(1)">Region</th>
+                <th onclick="sortNumbers(2)">Happiness Rank</th>              
+                <th>Happiness Score</th>
+                <th onclick="sortNumbers(4)">Economy (GDP per Capita)</th>
+                <th onclick="sortNumbers(5)">Health (Life Expectancy)</th>
+                <th onclick="sortNumbers(6)">Freedom</th>
+                <th onclick="sortNumbers(7)">Trust (Government Corruption)</th>
+                <th onclick="sortNumbers(8)">Generosity</th>
+              
+                </tr>
+                <script src="static/project.js"></script>
+                    <tbody>
+                      <tr>
+                        <th>0</th>
+                        <td>Switzerland</td>
+                        <td>Western Europe</td>
+                        <td>1</td>
+                        <td>7.587</td>
+                        <td>1.39651</td>
+                        <td>0.94143</td>
+                        <td>0.66557</td>
+                        <td>0.41978</td>
+                        <td>0.29678</td>
+                      </tr>
+                      <tr>
+                        <th>1</th>
+                        <td>Iceland</td>
+                        <td>Western Europe</td>
+                        <td>2</td>
+                        <td>7.561</td>
+                        <td>1.30232</td>
+                        <td>0.94784</td>
+                        <td>0.62877</td>
+                        <td>0.14145</td>
+                        <td>0.43630</td>
+                      </tr>
+                      <tr>
+                        <th>2</th>
+                        <td>Denmark</td>
+                        <td>Western Europe</td>
+                        <td>3</td>
+                        <td>7.527</td>
+                        <td>1.32548</td>
+                        <td>0.87464</td>
+                        <td>0.64938</td>
+                        <td>0.48357</td>
+                        <td>0.34139</td>
+                      </tr>
+                      <tr>
+                        <th>3</th>
+                        <td>Norway</td>
+                        <td>Western Europe</td>
+                        <td>4</td>
+                        <td>7.522</td>
+                        <td>1.45900</td>
+                        <td>0.88521</td>
+                        <td>0.66973</td>
+                        <td>0.36503</td>
+                        <td>0.34699</td>
+                      </tr>
+                      <tr>
+                        <th>4</th>
+                        <td>Canada</td>
+                        <td>North America</td>
+                        <td>5</td>
+                        <td>7.427</td>
+                        <td>1.32629</td>
+                        <td>0.90563</td>
+                        <td>0.63297</td>
+                        <td>0.32957</td>
+                        <td>0.45811</td>
+                      </tr>
+                      <tr>
+                        <th>5</th>
+                        <td>Finland</td>
+                        <td>Western Europe</td>
+                        <td>6</td>
+                        <td>7.406</td>
+                        <td>1.29025</td>
+                        <td>0.88911</td>
+                        <td>0.64169</td>
+                        <td>0.41372</td>
+                        <td>0.23351</td>
+                      </tr>
+                      <tr>
+                        <th>6</th>
+                        <td>Netherlands</td>
+                        <td>Western Europe</td>
+                        <td>7</td>
+                        <td>7.378</td>
+                        <td>1.32944</td>
+                        <td>0.89284</td>
+                        <td>0.61576</td>
+                        <td>0.31814</td>
+                        <td>0.47610</td>
+                      </tr>
+                      <tr>
+                        <th>7</th>
+                        <td>Sweden</td>
+                        <td>Western Europe</td>
+                        <td>8</td>
+                        <td>7.364</td>
+                        <td>1.33171</td>
+                        <td>0.91087</td>
+                        <td>0.65980</td>
+                        <td>0.43844</td>
+                        <td>0.36262</td>
+                      </tr>
+                      <tr>
+                        <th>8</th>
+                        <td>New Zealand</td>
+                        <td>Australia and New Zealand</td>
+                        <td>9</td>
+                        <td>7.286</td>
+                        <td>1.25018</td>
+                        <td>0.90837</td>
+                        <td>0.63938</td>
+                        <td>0.42922</td>
+                        <td>0.47501</td>
+                      </tr>
+                      <tr>
+                        <th>9</th>
+                        <td>Australia</td>
+                        <td>Australia and New Zealand</td>
+                        <td>10</td>
+                        <td>7.284</td>
+                        <td>1.33358</td>
+                        <td>0.93156</td>
+                        <td>0.65124</td>
+                        <td>0.35637</td>
+                        <td>0.43562</td>
+                      </tr>
+                      <tr>
+                        <th>10</th>
+                        <td>Israel</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>11</td>
+                        <td>7.278</td>
+                        <td>1.22857</td>
+                        <td>0.91387</td>
+                        <td>0.41319</td>
+                        <td>0.07785</td>
+                        <td>0.33172</td>
+                      </tr>
+                      <tr>
+                        <th>11</th>
+                        <td>Costa Rica</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>12</td>
+                        <td>7.226</td>
+                        <td>0.95578</td>
+                        <td>0.86027</td>
+                        <td>0.63376</td>
+                        <td>0.10583</td>
+                        <td>0.25497</td>
+                      </tr>
+                      <tr>
+                        <th>12</th>
+                        <td>Austria</td>
+                        <td>Western Europe</td>
+                        <td>13</td>
+                        <td>7.200</td>
+                        <td>1.33723</td>
+                        <td>0.89042</td>
+                        <td>0.62433</td>
+                        <td>0.18676</td>
+                        <td>0.33088</td>
+                      </tr>
+                      <tr>
+                        <th>13</th>
+                        <td>Mexico</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>14</td>
+                        <td>7.187</td>
+                        <td>1.02054</td>
+                        <td>0.81444</td>
+                        <td>0.48181</td>
+                        <td>0.21312</td>
+                        <td>0.14074</td>
+                      </tr>
+                      <tr>
+                        <th>14</th>
+                        <td>United States</td>
+                        <td>North America</td>
+                        <td>15</td>
+                        <td>7.119</td>
+                        <td>1.39451</td>
+                        <td>0.86179</td>
+                        <td>0.54604</td>
+                        <td>0.15890</td>
+                        <td>0.40105</td>
+                      </tr>
+                      <tr>
+                        <th>15</th>
+                        <td>Brazil</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>16</td>
+                        <td>6.983</td>
+                        <td>0.98124</td>
+                        <td>0.69702</td>
+                        <td>0.49049</td>
+                        <td>0.17521</td>
+                        <td>0.14574</td>
+                      </tr>
+                      <tr>
+                        <th>16</th>
+                        <td>Luxembourg</td>
+                        <td>Western Europe</td>
+                        <td>17</td>
+                        <td>6.946</td>
+                        <td>1.56391</td>
+                        <td>0.91894</td>
+                        <td>0.61583</td>
+                        <td>0.37798</td>
+                        <td>0.28034</td>
+                      </tr>
+                      <tr>
+                        <th>17</th>
+                        <td>Ireland</td>
+                        <td>Western Europe</td>
+                        <td>18</td>
+                        <td>6.940</td>
+                        <td>1.33596</td>
+                        <td>0.89533</td>
+                        <td>0.61777</td>
+                        <td>0.28703</td>
+                        <td>0.45901</td>
+                      </tr>
+                      <tr>
+                        <th>18</th>
+                        <td>Belgium</td>
+                        <td>Western Europe</td>
+                        <td>19</td>
+                        <td>6.937</td>
+                        <td>1.30782</td>
+                        <td>0.89667</td>
+                        <td>0.58450</td>
+                        <td>0.22540</td>
+                        <td>0.22250</td>
+                      </tr>
+                      <tr>
+                        <th>19</th>
+                        <td>United Arab Emirates</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>20</td>
+                        <td>6.901</td>
+                        <td>1.42727</td>
+                        <td>0.80925</td>
+                        <td>0.64157</td>
+                        <td>0.38583</td>
+                        <td>0.26428</td>
+                      </tr>
+                      <tr>
+                        <th>20</th>
+                        <td>United Kingdom</td>
+                        <td>Western Europe</td>
+                        <td>21</td>
+                        <td>6.867</td>
+                        <td>1.26637</td>
+                        <td>0.90943</td>
+                        <td>0.59625</td>
+                        <td>0.32067</td>
+                        <td>0.51912</td>
+                      </tr>
+                      <tr>
+                        <th>21</th>
+                        <td>Oman</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>22</td>
+                        <td>6.853</td>
+                        <td>1.36011</td>
+                        <td>0.76276</td>
+                        <td>0.63274</td>
+                        <td>0.32524</td>
+                        <td>0.21542</td>
+                      </tr>
+                      <tr>
+                        <th>22</th>
+                        <td>Venezuela</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>23</td>
+                        <td>6.810</td>
+                        <td>1.04424</td>
+                        <td>0.72052</td>
+                        <td>0.42908</td>
+                        <td>0.11069</td>
+                        <td>0.05841</td>
+                      </tr>
+                      <tr>
+                        <th>23</th>
+                        <td>Singapore</td>
+                        <td>Southeastern Asia</td>
+                        <td>24</td>
+                        <td>6.798</td>
+                        <td>1.52186</td>
+                        <td>1.02525</td>
+                        <td>0.54252</td>
+                        <td>0.49210</td>
+                        <td>0.31105</td>
+                      </tr>
+                      <tr>
+                        <th>24</th>
+                        <td>Panama</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>25</td>
+                        <td>6.786</td>
+                        <td>1.06353</td>
+                        <td>0.79661</td>
+                        <td>0.54210</td>
+                        <td>0.09270</td>
+                        <td>0.24434</td>
+                      </tr>
+                      <tr>
+                        <th>25</th>
+                        <td>Germany</td>
+                        <td>Western Europe</td>
+                        <td>26</td>
+                        <td>6.750</td>
+                        <td>1.32792</td>
+                        <td>0.89186</td>
+                        <td>0.61477</td>
+                        <td>0.21843</td>
+                        <td>0.28214</td>
+                      </tr>
+                      <tr>
+                        <th>26</th>
+                        <td>Chile</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>27</td>
+                        <td>6.670</td>
+                        <td>1.10715</td>
+                        <td>0.85857</td>
+                        <td>0.44132</td>
+                        <td>0.12869</td>
+                        <td>0.33363</td>
+                      </tr>
+                      <tr>
+                        <th>27</th>
+                        <td>Qatar</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>28</td>
+                        <td>6.611</td>
+                        <td>1.69042</td>
+                        <td>0.79733</td>
+                        <td>0.64040</td>
+                        <td>0.52208</td>
+                        <td>0.32573</td>
+                      </tr>
+                      <tr>
+                        <th>28</th>
+                        <td>France</td>
+                        <td>Western Europe</td>
+                        <td>29</td>
+                        <td>6.575</td>
+                        <td>1.27778</td>
+                        <td>0.94579</td>
+                        <td>0.55011</td>
+                        <td>0.20646</td>
+                        <td>0.12332</td>
+                      </tr>
+                      <tr>
+                        <th>29</th>
+                        <td>Argentina</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>30</td>
+                        <td>6.574</td>
+                        <td>1.05351</td>
+                        <td>0.78723</td>
+                        <td>0.44974</td>
+                        <td>0.08484</td>
+                        <td>0.11451</td>
+                      </tr>
+                      <tr>
+                        <th>30</th>
+                        <td>Czech Republic</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>31</td>
+                        <td>6.505</td>
+                        <td>1.17898</td>
+                        <td>0.84483</td>
+                        <td>0.46364</td>
+                        <td>0.02652</td>
+                        <td>0.10686</td>
+                      </tr>
+                      <tr>
+                        <th>31</th>
+                        <td>Uruguay</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>32</td>
+                        <td>6.485</td>
+                        <td>1.06166</td>
+                        <td>0.81160</td>
+                        <td>0.60362</td>
+                        <td>0.24558</td>
+                        <td>0.23240</td>
+                      </tr>
+                      <tr>
+                        <th>32</th>
+                        <td>Colombia</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>33</td>
+                        <td>6.477</td>
+                        <td>0.91861</td>
+                        <td>0.69077</td>
+                        <td>0.53466</td>
+                        <td>0.05120</td>
+                        <td>0.18401</td>
+                      </tr>
+                      <tr>
+                        <th>33</th>
+                        <td>Thailand</td>
+                        <td>Southeastern Asia</td>
+                        <td>34</td>
+                        <td>6.455</td>
+                        <td>0.96690</td>
+                        <td>0.73850</td>
+                        <td>0.55664</td>
+                        <td>0.03187</td>
+                        <td>0.57630</td>
+                      </tr>
+                      <tr>
+                        <th>34</th>
+                        <td>Saudi Arabia</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>35</td>
+                        <td>6.411</td>
+                        <td>1.39541</td>
+                        <td>0.72025</td>
+                        <td>0.31048</td>
+                        <td>0.32524</td>
+                        <td>0.13706</td>
+                      </tr>
+                      <tr>
+                        <th>35</th>
+                        <td>Spain</td>
+                        <td>Western Europe</td>
+                        <td>36</td>
+                        <td>6.329</td>
+                        <td>1.23011</td>
+                        <td>0.95562</td>
+                        <td>0.45951</td>
+                        <td>0.06398</td>
+                        <td>0.18227</td>
+                      </tr>
+                      <tr>
+                        <th>36</th>
+                        <td>Malta</td>
+                        <td>Western Europe</td>
+                        <td>37</td>
+                        <td>6.302</td>
+                        <td>1.20740</td>
+                        <td>0.88721</td>
+                        <td>0.60365</td>
+                        <td>0.13586</td>
+                        <td>0.51752</td>
+                      </tr>
+                      <tr>
+                        <th>37</th>
+                        <td>Taiwan</td>
+                        <td>Eastern Asia</td>
+                        <td>38</td>
+                        <td>6.298</td>
+                        <td>1.29098</td>
+                        <td>0.87530</td>
+                        <td>0.39740</td>
+                        <td>0.08129</td>
+                        <td>0.25376</td>
+                      </tr>
+                      <tr>
+                        <th>38</th>
+                        <td>Kuwait</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>39</td>
+                        <td>6.295</td>
+                        <td>1.55422</td>
+                        <td>0.72492</td>
+                        <td>0.55499</td>
+                        <td>0.25609</td>
+                        <td>0.16228</td>
+                      </tr>
+                      <tr>
+                        <th>39</th>
+                        <td>Suriname</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>40</td>
+                        <td>6.269</td>
+                        <td>0.99534</td>
+                        <td>0.60820</td>
+                        <td>0.59657</td>
+                        <td>0.13633</td>
+                        <td>0.16991</td>
+                      </tr>
+                      <tr>
+                        <th>40</th>
+                        <td>Trinidad and Tobago</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>41</td>
+                        <td>6.168</td>
+                        <td>1.21183</td>
+                        <td>0.61483</td>
+                        <td>0.55884</td>
+                        <td>0.01140</td>
+                        <td>0.31844</td>
+                      </tr>
+                      <tr>
+                        <th>41</th>
+                        <td>El Salvador</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>42</td>
+                        <td>6.130</td>
+                        <td>0.76454</td>
+                        <td>0.67737</td>
+                        <td>0.40350</td>
+                        <td>0.11776</td>
+                        <td>0.10692</td>
+                      </tr>
+                      <tr>
+                        <th>42</th>
+                        <td>Guatemala</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>43</td>
+                        <td>6.123</td>
+                        <td>0.74553</td>
+                        <td>0.64425</td>
+                        <td>0.57733</td>
+                        <td>0.09472</td>
+                        <td>0.27489</td>
+                      </tr>
+                      <tr>
+                        <th>43</th>
+                        <td>Uzbekistan</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>44</td>
+                        <td>6.003</td>
+                        <td>0.63244</td>
+                        <td>0.59772</td>
+                        <td>0.65821</td>
+                        <td>0.30826</td>
+                        <td>0.22837</td>
+                      </tr>
+                      <tr>
+                        <th>44</th>
+                        <td>Slovakia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>45</td>
+                        <td>5.995</td>
+                        <td>1.16891</td>
+                        <td>0.78902</td>
+                        <td>0.31751</td>
+                        <td>0.03431</td>
+                        <td>0.16893</td>
+                      </tr>
+                      <tr>
+                        <th>45</th>
+                        <td>Japan</td>
+                        <td>Eastern Asia</td>
+                        <td>46</td>
+                        <td>5.987</td>
+                        <td>1.27074</td>
+                        <td>0.99111</td>
+                        <td>0.49615</td>
+                        <td>0.18060</td>
+                        <td>0.10705</td>
+                      </tr>
+                      <tr>
+                        <th>46</th>
+                        <td>South Korea</td>
+                        <td>Eastern Asia</td>
+                        <td>47</td>
+                        <td>5.984</td>
+                        <td>1.24461</td>
+                        <td>0.96538</td>
+                        <td>0.33208</td>
+                        <td>0.07857</td>
+                        <td>0.18557</td>
+                      </tr>
+                      <tr>
+                        <th>47</th>
+                        <td>Ecuador</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>48</td>
+                        <td>5.975</td>
+                        <td>0.86402</td>
+                        <td>0.79075</td>
+                        <td>0.48574</td>
+                        <td>0.18090</td>
+                        <td>0.11541</td>
+                      </tr>
+                      <tr>
+                        <th>48</th>
+                        <td>Bahrain</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>49</td>
+                        <td>5.960</td>
+                        <td>1.32376</td>
+                        <td>0.74716</td>
+                        <td>0.45492</td>
+                        <td>0.30600</td>
+                        <td>0.17362</td>
+                      </tr>
+                      <tr>
+                        <th>49</th>
+                        <td>Italy</td>
+                        <td>Western Europe</td>
+                        <td>50</td>
+                        <td>5.948</td>
+                        <td>1.25114</td>
+                        <td>0.95446</td>
+                        <td>0.26236</td>
+                        <td>0.02901</td>
+                        <td>0.22823</td>
+                      </tr>
+                      <tr>
+                        <th>50</th>
+                        <td>Bolivia</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>51</td>
+                        <td>5.890</td>
+                        <td>0.68133</td>
+                        <td>0.53920</td>
+                        <td>0.57414</td>
+                        <td>0.08800</td>
+                        <td>0.20536</td>
+                      </tr>
+                      <tr>
+                        <th>51</th>
+                        <td>Moldova</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>52</td>
+                        <td>5.889</td>
+                        <td>0.59448</td>
+                        <td>0.61826</td>
+                        <td>0.32818</td>
+                        <td>0.01615</td>
+                        <td>0.20951</td>
+                      </tr>
+                      <tr>
+                        <th>52</th>
+                        <td>Paraguay</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>53</td>
+                        <td>5.878</td>
+                        <td>0.75985</td>
+                        <td>0.66098</td>
+                        <td>0.53899</td>
+                        <td>0.08242</td>
+                        <td>0.34240</td>
+                      </tr>
+                      <tr>
+                        <th>53</th>
+                        <td>Kazakhstan</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>54</td>
+                        <td>5.855</td>
+                        <td>1.12254</td>
+                        <td>0.64368</td>
+                        <td>0.51649</td>
+                        <td>0.08454</td>
+                        <td>0.11827</td>
+                      </tr>
+                      <tr>
+                        <th>54</th>
+                        <td>Slovenia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>55</td>
+                        <td>5.848</td>
+                        <td>1.18498</td>
+                        <td>0.87337</td>
+                        <td>0.60855</td>
+                        <td>0.03787</td>
+                        <td>0.25328</td>
+                      </tr>
+                      <tr>
+                        <th>55</th>
+                        <td>Lithuania</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>56</td>
+                        <td>5.833</td>
+                        <td>1.14723</td>
+                        <td>0.73128</td>
+                        <td>0.21342</td>
+                        <td>0.01031</td>
+                        <td>0.02641</td>
+                      </tr>
+                      <tr>
+                        <th>56</th>
+                        <td>Nicaragua</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>57</td>
+                        <td>5.828</td>
+                        <td>0.59325</td>
+                        <td>0.74314</td>
+                        <td>0.55475</td>
+                        <td>0.19317</td>
+                        <td>0.27815</td>
+                      </tr>
+                      <tr>
+                        <th>57</th>
+                        <td>Peru</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>58</td>
+                        <td>5.824</td>
+                        <td>0.90019</td>
+                        <td>0.73017</td>
+                        <td>0.41496</td>
+                        <td>0.05989</td>
+                        <td>0.14982</td>
+                      </tr>
+                      <tr>
+                        <th>58</th>
+                        <td>Belarus</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>59</td>
+                        <td>5.813</td>
+                        <td>1.03192</td>
+                        <td>0.73608</td>
+                        <td>0.37938</td>
+                        <td>0.19090</td>
+                        <td>0.11046</td>
+                      </tr>
+                      <tr>
+                        <th>59</th>
+                        <td>Poland</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>60</td>
+                        <td>5.791</td>
+                        <td>1.12555</td>
+                        <td>0.77903</td>
+                        <td>0.53122</td>
+                        <td>0.04212</td>
+                        <td>0.16759</td>
+                      </tr>
+                      <tr>
+                        <th>60</th>
+                        <td>Malaysia</td>
+                        <td>Southeastern Asia</td>
+                        <td>61</td>
+                        <td>5.770</td>
+                        <td>1.12486</td>
+                        <td>0.72394</td>
+                        <td>0.53024</td>
+                        <td>0.10501</td>
+                        <td>0.33075</td>
+                      </tr>
+                      <tr>
+                        <th>61</th>
+                        <td>Croatia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>62</td>
+                        <td>5.759</td>
+                        <td>1.08254</td>
+                        <td>0.78805</td>
+                        <td>0.25883</td>
+                        <td>0.02430</td>
+                        <td>0.05444</td>
+                      </tr>
+                      <tr>
+                        <th>62</th>
+                        <td>Libya</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>63</td>
+                        <td>5.754</td>
+                        <td>1.13145</td>
+                        <td>0.70380</td>
+                        <td>0.41668</td>
+                        <td>0.11023</td>
+                        <td>0.18295</td>
+                      </tr>
+                      <tr>
+                        <th>63</th>
+                        <td>Russia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>64</td>
+                        <td>5.716</td>
+                        <td>1.13764</td>
+                        <td>0.66926</td>
+                        <td>0.36679</td>
+                        <td>0.03005</td>
+                        <td>0.00199</td>
+                      </tr>
+                      <tr>
+                        <th>64</th>
+                        <td>Jamaica</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>65</td>
+                        <td>5.709</td>
+                        <td>0.81038</td>
+                        <td>0.68741</td>
+                        <td>0.50442</td>
+                        <td>0.02299</td>
+                        <td>0.21230</td>
+                      </tr>
+                      <tr>
+                        <th>65</th>
+                        <td>North Cyprus</td>
+                        <td>Western Europe</td>
+                        <td>66</td>
+                        <td>5.695</td>
+                        <td>1.20806</td>
+                        <td>0.92356</td>
+                        <td>0.49027</td>
+                        <td>0.14280</td>
+                        <td>0.26169</td>
+                      </tr>
+                      <tr>
+                        <th>66</th>
+                        <td>Cyprus</td>
+                        <td>Western Europe</td>
+                        <td>67</td>
+                        <td>5.689</td>
+                        <td>1.20813</td>
+                        <td>0.92356</td>
+                        <td>0.40672</td>
+                        <td>0.06146</td>
+                        <td>0.30638</td>
+                      </tr>
+                      <tr>
+                        <th>67</th>
+                        <td>Algeria</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>68</td>
+                        <td>5.605</td>
+                        <td>0.93929</td>
+                        <td>0.61766</td>
+                        <td>0.28579</td>
+                        <td>0.17383</td>
+                        <td>0.07822</td>
+                      </tr>
+                      <tr>
+                        <th>68</th>
+                        <td>Kosovo</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>69</td>
+                        <td>5.589</td>
+                        <td>0.80148</td>
+                        <td>0.63132</td>
+                        <td>0.24749</td>
+                        <td>0.04741</td>
+                        <td>0.28310</td>
+                      </tr>
+                      <tr>
+                        <th>69</th>
+                        <td>Turkmenistan</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>70</td>
+                        <td>5.548</td>
+                        <td>0.95847</td>
+                        <td>0.53886</td>
+                        <td>0.47610</td>
+                        <td>0.30844</td>
+                        <td>0.16979</td>
+                      </tr>
+                      <tr>
+                        <th>70</th>
+                        <td>Mauritius</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>71</td>
+                        <td>5.477</td>
+                        <td>1.00761</td>
+                        <td>0.70950</td>
+                        <td>0.56066</td>
+                        <td>0.07521</td>
+                        <td>0.37744</td>
+                      </tr>
+                      <tr>
+                        <th>71</th>
+                        <td>Hong Kong</td>
+                        <td>Eastern Asia</td>
+                        <td>72</td>
+                        <td>5.474</td>
+                        <td>1.38604</td>
+                        <td>1.01328</td>
+                        <td>0.59608</td>
+                        <td>0.37124</td>
+                        <td>0.39478</td>
+                      </tr>
+                      <tr>
+                        <th>72</th>
+                        <td>Estonia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>73</td>
+                        <td>5.429</td>
+                        <td>1.15174</td>
+                        <td>0.77361</td>
+                        <td>0.44888</td>
+                        <td>0.15184</td>
+                        <td>0.08680</td>
+                      </tr>
+                      <tr>
+                        <th>73</th>
+                        <td>Indonesia</td>
+                        <td>Southeastern Asia</td>
+                        <td>74</td>
+                        <td>5.399</td>
+                        <td>0.82827</td>
+                        <td>0.63793</td>
+                        <td>0.46611</td>
+                        <td>0.00000</td>
+                        <td>0.51535</td>
+                      </tr>
+                      <tr>
+                        <th>74</th>
+                        <td>Vietnam</td>
+                        <td>Southeastern Asia</td>
+                        <td>75</td>
+                        <td>5.360</td>
+                        <td>0.63216</td>
+                        <td>0.74676</td>
+                        <td>0.59444</td>
+                        <td>0.10441</td>
+                        <td>0.16860</td>
+                      </tr>
+                      <tr>
+                        <th>75</th>
+                        <td>Turkey</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>76</td>
+                        <td>5.332</td>
+                        <td>1.06098</td>
+                        <td>0.73172</td>
+                        <td>0.22815</td>
+                        <td>0.15746</td>
+                        <td>0.12253</td>
+                      </tr>
+                      <tr>
+                        <th>76</th>
+                        <td>Kyrgyzstan</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>77</td>
+                        <td>5.286</td>
+                        <td>0.47428</td>
+                        <td>0.65088</td>
+                        <td>0.43477</td>
+                        <td>0.04232</td>
+                        <td>0.30030</td>
+                      </tr>
+                      <tr>
+                        <th>77</th>
+                        <td>Nigeria</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>78</td>
+                        <td>5.268</td>
+                        <td>0.65435</td>
+                        <td>0.16007</td>
+                        <td>0.34334</td>
+                        <td>0.04030</td>
+                        <td>0.27233</td>
+                      </tr>
+                      <tr>
+                        <th>78</th>
+                        <td>Bhutan</td>
+                        <td>Southern Asia</td>
+                        <td>79</td>
+                        <td>5.253</td>
+                        <td>0.77042</td>
+                        <td>0.57407</td>
+                        <td>0.53206</td>
+                        <td>0.15445</td>
+                        <td>0.47998</td>
+                      </tr>
+                      <tr>
+                        <th>79</th>
+                        <td>Azerbaijan</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>80</td>
+                        <td>5.212</td>
+                        <td>1.02389</td>
+                        <td>0.64045</td>
+                        <td>0.37030</td>
+                        <td>0.16065</td>
+                        <td>0.07799</td>
+                      </tr>
+                      <tr>
+                        <th>80</th>
+                        <td>Pakistan</td>
+                        <td>Southern Asia</td>
+                        <td>81</td>
+                        <td>5.194</td>
+                        <td>0.59543</td>
+                        <td>0.51466</td>
+                        <td>0.12102</td>
+                        <td>0.10464</td>
+                        <td>0.33671</td>
+                      </tr>
+                      <tr>
+                        <th>81</th>
+                        <td>Jordan</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>82</td>
+                        <td>5.192</td>
+                        <td>0.90198</td>
+                        <td>0.69639</td>
+                        <td>0.40661</td>
+                        <td>0.14293</td>
+                        <td>0.11053</td>
+                      </tr>
+                      <tr>
+                        <th>82</th>
+                        <td>Montenegro</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>82</td>
+                        <td>5.192</td>
+                        <td>0.97438</td>
+                        <td>0.72521</td>
+                        <td>0.18260</td>
+                        <td>0.14296</td>
+                        <td>0.16140</td>
+                      </tr>
+                      <tr>
+                        <th>83</th>
+                        <td>China</td>
+                        <td>Eastern Asia</td>
+                        <td>84</td>
+                        <td>5.140</td>
+                        <td>0.89012</td>
+                        <td>0.81658</td>
+                        <td>0.51697</td>
+                        <td>0.02781</td>
+                        <td>0.08185</td>
+                      </tr>
+                      <tr>
+                        <th>84</th>
+                        <td>Zambia</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>85</td>
+                        <td>5.129</td>
+                        <td>0.47038</td>
+                        <td>0.29924</td>
+                        <td>0.48827</td>
+                        <td>0.12468</td>
+                        <td>0.19591</td>
+                      </tr>
+                      <tr>
+                        <th>85</th>
+                        <td>Romania</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>86</td>
+                        <td>5.124</td>
+                        <td>1.04345</td>
+                        <td>0.76890</td>
+                        <td>0.35068</td>
+                        <td>0.00649</td>
+                        <td>0.13748</td>
+                      </tr>
+                      <tr>
+                        <th>86</th>
+                        <td>Serbia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>87</td>
+                        <td>5.123</td>
+                        <td>0.92053</td>
+                        <td>0.74836</td>
+                        <td>0.20107</td>
+                        <td>0.02617</td>
+                        <td>0.19231</td>
+                      </tr>
+                      <tr>
+                        <th>87</th>
+                        <td>Portugal</td>
+                        <td>Western Europe</td>
+                        <td>88</td>
+                        <td>5.102</td>
+                        <td>1.15991</td>
+                        <td>0.87519</td>
+                        <td>0.51469</td>
+                        <td>0.01078</td>
+                        <td>0.13719</td>
+                      </tr>
+                      <tr>
+                        <th>88</th>
+                        <td>Latvia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>89</td>
+                        <td>5.098</td>
+                        <td>1.11312</td>
+                        <td>0.72437</td>
+                        <td>0.29671</td>
+                        <td>0.06332</td>
+                        <td>0.18226</td>
+                      </tr>
+                      <tr>
+                        <th>89</th>
+                        <td>Philippines</td>
+                        <td>Southeastern Asia</td>
+                        <td>90</td>
+                        <td>5.073</td>
+                        <td>0.70532</td>
+                        <td>0.58114</td>
+                        <td>0.62545</td>
+                        <td>0.12279</td>
+                        <td>0.24991</td>
+                      </tr>
+                      <tr>
+                        <th>90</th>
+                        <td>Somaliland region</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>91</td>
+                        <td>5.057</td>
+                        <td>0.18847</td>
+                        <td>0.43873</td>
+                        <td>0.46582</td>
+                        <td>0.39928</td>
+                        <td>0.50318</td>
+                      </tr>
+                      <tr>
+                        <th>91</th>
+                        <td>Morocco</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>92</td>
+                        <td>5.013</td>
+                        <td>0.73479</td>
+                        <td>0.60954</td>
+                        <td>0.41691</td>
+                        <td>0.08546</td>
+                        <td>0.07172</td>
+                      </tr>
+                      <tr>
+                        <th>92</th>
+                        <td>Macedonia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>93</td>
+                        <td>5.007</td>
+                        <td>0.91851</td>
+                        <td>0.73545</td>
+                        <td>0.33457</td>
+                        <td>0.05327</td>
+                        <td>0.22359</td>
+                      </tr>
+                      <tr>
+                        <th>93</th>
+                        <td>Mozambique</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>94</td>
+                        <td>4.971</td>
+                        <td>0.08308</td>
+                        <td>0.09131</td>
+                        <td>0.34037</td>
+                        <td>0.15603</td>
+                        <td>0.22269</td>
+                      </tr>
+                      <tr>
+                        <th>94</th>
+                        <td>Albania</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>95</td>
+                        <td>4.959</td>
+                        <td>0.87867</td>
+                        <td>0.81325</td>
+                        <td>0.35733</td>
+                        <td>0.06413</td>
+                        <td>0.14272</td>
+                      </tr>
+                      <tr>
+                        <th>95</th>
+                        <td>Bosnia and Herzegovina</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>96</td>
+                        <td>4.949</td>
+                        <td>0.83223</td>
+                        <td>0.79081</td>
+                        <td>0.09245</td>
+                        <td>0.00227</td>
+                        <td>0.24808</td>
+                      </tr>
+                      <tr>
+                        <th>96</th>
+                        <td>Lesotho</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>97</td>
+                        <td>4.898</td>
+                        <td>0.37545</td>
+                        <td>0.07612</td>
+                        <td>0.31767</td>
+                        <td>0.12504</td>
+                        <td>0.16388</td>
+                      </tr>
+                      <tr>
+                        <th>97</th>
+                        <td>Dominican Republic</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>98</td>
+                        <td>4.885</td>
+                        <td>0.89537</td>
+                        <td>0.66825</td>
+                        <td>0.57672</td>
+                        <td>0.14234</td>
+                        <td>0.21684</td>
+                      </tr>
+                      <tr>
+                        <th>98</th>
+                        <td>Laos</td>
+                        <td>Southeastern Asia</td>
+                        <td>99</td>
+                        <td>4.876</td>
+                        <td>0.59066</td>
+                        <td>0.54909</td>
+                        <td>0.59591</td>
+                        <td>0.24249</td>
+                        <td>0.42192</td>
+                      </tr>
+                      <tr>
+                        <th>99</th>
+                        <td>Mongolia</td>
+                        <td>Eastern Asia</td>
+                        <td>100</td>
+                        <td>4.874</td>
+                        <td>0.82819</td>
+                        <td>0.60268</td>
+                        <td>0.43626</td>
+                        <td>0.02666</td>
+                        <td>0.33230</td>
+                      </tr>
+                      <tr>
+                        <th>100</th>
+                        <td>Swaziland</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>101</td>
+                        <td>4.867</td>
+                        <td>0.71206</td>
+                        <td>0.07566</td>
+                        <td>0.30658</td>
+                        <td>0.03060</td>
+                        <td>0.18259</td>
+                      </tr>
+                      <tr>
+                        <th>101</th>
+                        <td>Greece</td>
+                        <td>Western Europe</td>
+                        <td>102</td>
+                        <td>4.857</td>
+                        <td>1.15406</td>
+                        <td>0.88213</td>
+                        <td>0.07699</td>
+                        <td>0.01397</td>
+                        <td>0.00000</td>
+                      </tr>
+                      <tr>
+                        <th>102</th>
+                        <td>Lebanon</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>103</td>
+                        <td>4.839</td>
+                        <td>1.02564</td>
+                        <td>0.83947</td>
+                        <td>0.33916</td>
+                        <td>0.04582</td>
+                        <td>0.21854</td>
+                      </tr>
+                      <tr>
+                        <th>103</th>
+                        <td>Hungary</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>104</td>
+                        <td>4.800</td>
+                        <td>1.12094</td>
+                        <td>0.75905</td>
+                        <td>0.32112</td>
+                        <td>0.02758</td>
+                        <td>0.12800</td>
+                      </tr>
+                      <tr>
+                        <th>104</th>
+                        <td>Honduras</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>105</td>
+                        <td>4.788</td>
+                        <td>0.59532</td>
+                        <td>0.69510</td>
+                        <td>0.40148</td>
+                        <td>0.06825</td>
+                        <td>0.23027</td>
+                      </tr>
+                      <tr>
+                        <th>105</th>
+                        <td>Tajikistan</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>106</td>
+                        <td>4.786</td>
+                        <td>0.39047</td>
+                        <td>0.57379</td>
+                        <td>0.47216</td>
+                        <td>0.15072</td>
+                        <td>0.22974</td>
+                      </tr>
+                      <tr>
+                        <th>106</th>
+                        <td>Tunisia</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>107</td>
+                        <td>4.739</td>
+                        <td>0.88113</td>
+                        <td>0.73793</td>
+                        <td>0.26268</td>
+                        <td>0.06358</td>
+                        <td>0.06431</td>
+                      </tr>
+                      <tr>
+                        <th>107</th>
+                        <td>Palestinian Territories</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>108</td>
+                        <td>4.715</td>
+                        <td>0.59867</td>
+                        <td>0.66015</td>
+                        <td>0.24499</td>
+                        <td>0.12905</td>
+                        <td>0.11251</td>
+                      </tr>
+                      <tr>
+                        <th>108</th>
+                        <td>Bangladesh</td>
+                        <td>Southern Asia</td>
+                        <td>109</td>
+                        <td>4.694</td>
+                        <td>0.39753</td>
+                        <td>0.60164</td>
+                        <td>0.40820</td>
+                        <td>0.12569</td>
+                        <td>0.21222</td>
+                      </tr>
+                      <tr>
+                        <th>109</th>
+                        <td>Iran</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>110</td>
+                        <td>4.686</td>
+                        <td>1.00880</td>
+                        <td>0.69805</td>
+                        <td>0.30033</td>
+                        <td>0.05863</td>
+                        <td>0.38086</td>
+                      </tr>
+                      <tr>
+                        <th>110</th>
+                        <td>Ukraine</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>111</td>
+                        <td>4.681</td>
+                        <td>0.79907</td>
+                        <td>0.67390</td>
+                        <td>0.25123</td>
+                        <td>0.02961</td>
+                        <td>0.15275</td>
+                      </tr>
+                      <tr>
+                        <th>111</th>
+                        <td>Iraq</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>112</td>
+                        <td>4.677</td>
+                        <td>0.98549</td>
+                        <td>0.60237</td>
+                        <td>0.00000</td>
+                        <td>0.13788</td>
+                        <td>0.17922</td>
+                      </tr>
+                      <tr>
+                        <th>112</th>
+                        <td>South Africa</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>113</td>
+                        <td>4.642</td>
+                        <td>0.92049</td>
+                        <td>0.27688</td>
+                        <td>0.33207</td>
+                        <td>0.08884</td>
+                        <td>0.11973</td>
+                      </tr>
+                      <tr>
+                        <th>113</th>
+                        <td>Ghana</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>114</td>
+                        <td>4.633</td>
+                        <td>0.54558</td>
+                        <td>0.40132</td>
+                        <td>0.42342</td>
+                        <td>0.04355</td>
+                        <td>0.23087</td>
+                      </tr>
+                      <tr>
+                        <th>114</th>
+                        <td>Zimbabwe</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>115</td>
+                        <td>4.610</td>
+                        <td>0.27100</td>
+                        <td>0.33475</td>
+                        <td>0.25861</td>
+                        <td>0.08079</td>
+                        <td>0.18987</td>
+                      </tr>
+                      <tr>
+                        <th>115</th>
+                        <td>Liberia</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>116</td>
+                        <td>4.571</td>
+                        <td>0.07120</td>
+                        <td>0.34201</td>
+                        <td>0.28531</td>
+                        <td>0.06232</td>
+                        <td>0.24362</td>
+                      </tr>
+                      <tr>
+                        <th>116</th>
+                        <td>India</td>
+                        <td>Southern Asia</td>
+                        <td>117</td>
+                        <td>4.565</td>
+                        <td>0.64499</td>
+                        <td>0.51529</td>
+                        <td>0.39786</td>
+                        <td>0.08492</td>
+                        <td>0.26475</td>
+                      </tr>
+                      <tr>
+                        <th>117</th>
+                        <td>Sudan</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>118</td>
+                        <td>4.550</td>
+                        <td>0.52107</td>
+                        <td>0.36878</td>
+                        <td>0.10081</td>
+                        <td>0.14660</td>
+                        <td>0.19062</td>
+                      </tr>
+                      <tr>
+                        <th>118</th>
+                        <td>Haiti</td>
+                        <td>Latin America and Caribbean</td>
+                        <td>119</td>
+                        <td>4.518</td>
+                        <td>0.26673</td>
+                        <td>0.38847</td>
+                        <td>0.24425</td>
+                        <td>0.17175</td>
+                        <td>0.46187</td>
+                      </tr>
+                      <tr>
+                        <th>119</th>
+                        <td>Congo (Kinshasa)</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>120</td>
+                        <td>4.517</td>
+                        <td>0.00000</td>
+                        <td>0.09806</td>
+                        <td>0.22605</td>
+                        <td>0.07625</td>
+                        <td>0.24834</td>
+                      </tr>
+                      <tr>
+                        <th>120</th>
+                        <td>Nepal</td>
+                        <td>Southern Asia</td>
+                        <td>121</td>
+                        <td>4.514</td>
+                        <td>0.35997</td>
+                        <td>0.56874</td>
+                        <td>0.38282</td>
+                        <td>0.05907</td>
+                        <td>0.32296</td>
+                      </tr>
+                      <tr>
+                        <th>121</th>
+                        <td>Ethiopia</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>122</td>
+                        <td>4.512</td>
+                        <td>0.19073</td>
+                        <td>0.44055</td>
+                        <td>0.43450</td>
+                        <td>0.15048</td>
+                        <td>0.24325</td>
+                      </tr>
+                      <tr>
+                        <th>122</th>
+                        <td>Sierra Leone</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>123</td>
+                        <td>4.507</td>
+                        <td>0.33024</td>
+                        <td>0.00000</td>
+                        <td>0.40840</td>
+                        <td>0.08786</td>
+                        <td>0.21488</td>
+                      </tr>
+                      <tr>
+                        <th>123</th>
+                        <td>Mauritania</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>124</td>
+                        <td>4.436</td>
+                        <td>0.45407</td>
+                        <td>0.35874</td>
+                        <td>0.24232</td>
+                        <td>0.17461</td>
+                        <td>0.21900</td>
+                      </tr>
+                      <tr>
+                        <th>124</th>
+                        <td>Kenya</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>125</td>
+                        <td>4.419</td>
+                        <td>0.36471</td>
+                        <td>0.41435</td>
+                        <td>0.42215</td>
+                        <td>0.05839</td>
+                        <td>0.37542</td>
+                      </tr>
+                      <tr>
+                        <th>125</th>
+                        <td>Djibouti</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>126</td>
+                        <td>4.369</td>
+                        <td>0.44025</td>
+                        <td>0.36291</td>
+                        <td>0.46074</td>
+                        <td>0.28105</td>
+                        <td>0.18093</td>
+                      </tr>
+                      <tr>
+                        <th>126</th>
+                        <td>Armenia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>127</td>
+                        <td>4.350</td>
+                        <td>0.76821</td>
+                        <td>0.72990</td>
+                        <td>0.19847</td>
+                        <td>0.03900</td>
+                        <td>0.07855</td>
+                      </tr>
+                      <tr>
+                        <th>127</th>
+                        <td>Botswana</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>128</td>
+                        <td>4.332</td>
+                        <td>0.99355</td>
+                        <td>0.04776</td>
+                        <td>0.49495</td>
+                        <td>0.12474</td>
+                        <td>0.10461</td>
+                      </tr>
+                      <tr>
+                        <th>128</th>
+                        <td>Myanmar</td>
+                        <td>Southeastern Asia</td>
+                        <td>129</td>
+                        <td>4.307</td>
+                        <td>0.27108</td>
+                        <td>0.48246</td>
+                        <td>0.44017</td>
+                        <td>0.19034</td>
+                        <td>0.79588</td>
+                      </tr>
+                      <tr>
+                        <th>129</th>
+                        <td>Georgia</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>130</td>
+                        <td>4.297</td>
+                        <td>0.74190</td>
+                        <td>0.72926</td>
+                        <td>0.40577</td>
+                        <td>0.38331</td>
+                        <td>0.05547</td>
+                      </tr>
+                      <tr>
+                        <th>130</th>
+                        <td>Malawi</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>131</td>
+                        <td>4.292</td>
+                        <td>0.01604</td>
+                        <td>0.22562</td>
+                        <td>0.43054</td>
+                        <td>0.06977</td>
+                        <td>0.33128</td>
+                      </tr>
+                      <tr>
+                        <th>131</th>
+                        <td>Sri Lanka</td>
+                        <td>Southern Asia</td>
+                        <td>132</td>
+                        <td>4.271</td>
+                        <td>0.83524</td>
+                        <td>0.70806</td>
+                        <td>0.53726</td>
+                        <td>0.09179</td>
+                        <td>0.40828</td>
+                      </tr>
+                      <tr>
+                        <th>132</th>
+                        <td>Cameroon</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>133</td>
+                        <td>4.252</td>
+                        <td>0.42250</td>
+                        <td>0.23402</td>
+                        <td>0.49309</td>
+                        <td>0.05786</td>
+                        <td>0.20618</td>
+                      </tr>
+                      <tr>
+                        <th>133</th>
+                        <td>Bulgaria</td>
+                        <td>Central and Eastern Europe</td>
+                        <td>134</td>
+                        <td>4.218</td>
+                        <td>1.01216</td>
+                        <td>0.76649</td>
+                        <td>0.30587</td>
+                        <td>0.00872</td>
+                        <td>0.11921</td>
+                      </tr>
+                      <tr>
+                        <th>134</th>
+                        <td>Egypt</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>135</td>
+                        <td>4.194</td>
+                        <td>0.88180</td>
+                        <td>0.61712</td>
+                        <td>0.17288</td>
+                        <td>0.06324</td>
+                        <td>0.11291</td>
+                      </tr>
+                      <tr>
+                        <th>135</th>
+                        <td>Yemen</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>136</td>
+                        <td>4.077</td>
+                        <td>0.54649</td>
+                        <td>0.40064</td>
+                        <td>0.35571</td>
+                        <td>0.07854</td>
+                        <td>0.09131</td>
+                      </tr>
+                      <tr>
+                        <th>136</th>
+                        <td>Angola</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>137</td>
+                        <td>4.033</td>
+                        <td>0.75778</td>
+                        <td>0.16683</td>
+                        <td>0.10384</td>
+                        <td>0.07122</td>
+                        <td>0.12344</td>
+                      </tr>
+                      <tr>
+                        <th>137</th>
+                        <td>Mali</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>138</td>
+                        <td>3.995</td>
+                        <td>0.26074</td>
+                        <td>0.20583</td>
+                        <td>0.38857</td>
+                        <td>0.12352</td>
+                        <td>0.18798</td>
+                      </tr>
+                      <tr>
+                        <th>138</th>
+                        <td>Congo (Brazzaville)</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>139</td>
+                        <td>3.989</td>
+                        <td>0.67866</td>
+                        <td>0.31051</td>
+                        <td>0.41466</td>
+                        <td>0.11686</td>
+                        <td>0.12388</td>
+                      </tr>
+                      <tr>
+                        <th>139</th>
+                        <td>Comoros</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>140</td>
+                        <td>3.956</td>
+                        <td>0.23906</td>
+                        <td>0.36315</td>
+                        <td>0.22917</td>
+                        <td>0.19900</td>
+                        <td>0.17441</td>
+                      </tr>
+                      <tr>
+                        <th>140</th>
+                        <td>Uganda</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>141</td>
+                        <td>3.931</td>
+                        <td>0.21102</td>
+                        <td>0.33861</td>
+                        <td>0.45727</td>
+                        <td>0.07267</td>
+                        <td>0.29066</td>
+                      </tr>
+                      <tr>
+                        <th>141</th>
+                        <td>Senegal</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>142</td>
+                        <td>3.904</td>
+                        <td>0.36498</td>
+                        <td>0.43540</td>
+                        <td>0.36772</td>
+                        <td>0.10713</td>
+                        <td>0.20843</td>
+                      </tr>
+                      <tr>
+                        <th>142</th>
+                        <td>Gabon</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>143</td>
+                        <td>3.896</td>
+                        <td>1.06024</td>
+                        <td>0.43372</td>
+                        <td>0.31914</td>
+                        <td>0.11091</td>
+                        <td>0.06822</td>
+                      </tr>
+                      <tr>
+                        <th>143</th>
+                        <td>Niger</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>144</td>
+                        <td>3.845</td>
+                        <td>0.06940</td>
+                        <td>0.29707</td>
+                        <td>0.47692</td>
+                        <td>0.15639</td>
+                        <td>0.19387</td>
+                      </tr>
+                      <tr>
+                        <th>144</th>
+                        <td>Cambodia</td>
+                        <td>Southeastern Asia</td>
+                        <td>145</td>
+                        <td>3.819</td>
+                        <td>0.46038</td>
+                        <td>0.61114</td>
+                        <td>0.66246</td>
+                        <td>0.07247</td>
+                        <td>0.40359</td>
+                      </tr>
+                      <tr>
+                        <th>145</th>
+                        <td>Tanzania</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>146</td>
+                        <td>3.781</td>
+                        <td>0.28520</td>
+                        <td>0.38215</td>
+                        <td>0.32878</td>
+                        <td>0.05747</td>
+                        <td>0.34377</td>
+                      </tr>
+                      <tr>
+                        <th>146</th>
+                        <td>Madagascar</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>147</td>
+                        <td>3.681</td>
+                        <td>0.20824</td>
+                        <td>0.46721</td>
+                        <td>0.19184</td>
+                        <td>0.08124</td>
+                        <td>0.21333</td>
+                      </tr>
+                      <tr>
+                        <th>147</th>
+                        <td>Central African Republic</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>148</td>
+                        <td>3.678</td>
+                        <td>0.07850</td>
+                        <td>0.06699</td>
+                        <td>0.48879</td>
+                        <td>0.08289</td>
+                        <td>0.23835</td>
+                      </tr>
+                      <tr>
+                        <th>148</th>
+                        <td>Chad</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>149</td>
+                        <td>3.667</td>
+                        <td>0.34193</td>
+                        <td>0.15010</td>
+                        <td>0.23501</td>
+                        <td>0.05269</td>
+                        <td>0.18386</td>
+                      </tr>
+                      <tr>
+                        <th>149</th>
+                        <td>Guinea</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>150</td>
+                        <td>3.656</td>
+                        <td>0.17417</td>
+                        <td>0.24009</td>
+                        <td>0.37725</td>
+                        <td>0.12139</td>
+                        <td>0.28657</td>
+                      </tr>
+                      <tr>
+                        <th>150</th>
+                        <td>Ivory Coast</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>151</td>
+                        <td>3.655</td>
+                        <td>0.46534</td>
+                        <td>0.15185</td>
+                        <td>0.46866</td>
+                        <td>0.17922</td>
+                        <td>0.20165</td>
+                      </tr>
+                      <tr>
+                        <th>151</th>
+                        <td>Burkina Faso</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>152</td>
+                        <td>3.587</td>
+                        <td>0.25812</td>
+                        <td>0.27125</td>
+                        <td>0.39493</td>
+                        <td>0.12832</td>
+                        <td>0.21747</td>
+                      </tr>
+                      <tr>
+                        <th>152</th>
+                        <td>Afghanistan</td>
+                        <td>Southern Asia</td>
+                        <td>153</td>
+                        <td>3.575</td>
+                        <td>0.31982</td>
+                        <td>0.30335</td>
+                        <td>0.23414</td>
+                        <td>0.09719</td>
+                        <td>0.36510</td>
+                      </tr>
+                      <tr>
+                        <th>153</th>
+                        <td>Rwanda</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>154</td>
+                        <td>3.465</td>
+                        <td>0.22208</td>
+                        <td>0.42864</td>
+                        <td>0.59201</td>
+                        <td>0.55191</td>
+                        <td>0.22628</td>
+                      </tr>
+                      <tr>
+                        <th>154</th>
+                        <td>Benin</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>155</td>
+                        <td>3.340</td>
+                        <td>0.28665</td>
+                        <td>0.31910</td>
+                        <td>0.48450</td>
+                        <td>0.08010</td>
+                        <td>0.18260</td>
+                      </tr>
+                      <tr>
+                        <th>155</th>
+                        <td>Syria</td>
+                        <td>Middle East and Northern Africa</td>
+                        <td>156</td>
+                        <td>3.006</td>
+                        <td>0.66320</td>
+                        <td>0.72193</td>
+                        <td>0.15684</td>
+                        <td>0.18906</td>
+                        <td>0.47179</td>
+                      </tr>
+                      <tr>
+                        <th>156</th>
+                        <td>Burundi</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>157</td>
+                        <td>2.905</td>
+                        <td>0.01530</td>
+                        <td>0.22396</td>
+                        <td>0.11850</td>
+                        <td>0.10062</td>
+                        <td>0.19727</td>
+                      </tr>
+                      <tr>
+                        <th>157</th>
+                        <td>Togo</td>
+                        <td>Sub-Saharan Africa</td>
+                        <td>158</td>
+                        <td>2.839</td>
+                        <td>0.20868</td>
+                        <td>0.28443</td>
+                        <td>0.36453</td>
+                        <td>0.10731</td>
+                        <td>0.16681</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                       </table>
+              ​
+              ​
+              
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>                         ​
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- <script src="static/sorttable.js"></script> -->
+</body>    
+</head>
+</html>
