@@ -1900,10 +1900,36 @@ var Countries =[ {
   Trust_Government_Trust:"0.287",
   Generosity:"0.258"
 }];
-for (var i = 0; i < Countries.length; i++) {
-  var Country = Countries[i];
-  L.marker(Country.Coordinates)
-    .bindPopup("<h1>" + Country.Country + "</h1> <hr> <h3>2019 Rank " + Country.Happiness_Rank + "</h3>")
-    .addTo(myMap);
-
+for (var i = 0; i < Countries.length; i++) {var color = ""
+if (Countries[i].Happiness_Score >7){
+    color="purple";
+  }
+else if (Countries[i].Happiness_Score > 6){
+  color="blue";
 }
+else if (Countries[i].Happiness_Score > 5){
+  color="yellow";
+}
+else if (Countries[i].Happiness_Score > 4){
+  color="green"
+}
+else if (Countries[i].Happiness_Score > 3){
+  color="orange"
+}
+else {
+  color="red";
+}
+
+L.circle(Countries[i].Coordinates,
+  { fillOpacity: 0.75,
+    color: "black",
+    fillColor: color,
+    radius: Countries[i].Happiness_Score * 20000
+  }).bindPopup("<h1>" + Countries[i].Country + "</h1> <hr> <h3>2019 Rank: " + Countries[i].Happiness_Rank + "</h3>" + "<h3>2019 Score:  " + Countries[i].Happiness_Score + "</h3>").addTo(myMap);
+}
+//   var Country = Countries[i];
+//   L.marker(Country.Coordinates)
+//     .bindPopup("<h1>" + Country.Country + "</h1> <hr> <h3>2019 Rank " + Country.Happiness_Rank + "</h3>")
+//     .addTo(myMap);
+
+// }
